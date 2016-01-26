@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F987A351C574F7E0010749E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F987A341C574F7E0010749E /* main.m */; };
+		8F987A381C574F7E0010749E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F987A371C574F7E0010749E /* AppDelegate.m */; };
+		8F987A3B1C574F7E0010749E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F987A3A1C574F7E0010749E /* ViewController.m */; };
+		8F987A3E1C574F7E0010749E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F987A3C1C574F7E0010749E /* Main.storyboard */; };
+		8F987A411C574F7F0010749E /* iSignfor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F987A3F1C574F7F0010749E /* iSignfor.xcdatamodeld */; };
+		8F987A431C574F7F0010749E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F987A421C574F7F0010749E /* Assets.xcassets */; };
+		8F987A461C574F7F0010749E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F987A441C574F7F0010749E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F987A301C574F7E0010749E /* iSignfor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSignfor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F987A341C574F7E0010749E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F987A361C574F7E0010749E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F987A371C574F7E0010749E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F987A391C574F7E0010749E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F987A3A1C574F7E0010749E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F987A3D1C574F7E0010749E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F987A401C574F7F0010749E /* iSignfor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSignfor.xcdatamodel; sourceTree = "<group>"; };
+		8F987A421C574F7F0010749E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F987A451C574F7F0010749E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F987A471C574F7F0010749E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F987A2D1C574F7E0010749E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F987A271C574F7D0010749E = {
+			isa = PBXGroup;
+			children = (
+				8F987A321C574F7E0010749E /* iSignfor */,
+				8F987A311C574F7E0010749E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F987A311C574F7E0010749E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F987A301C574F7E0010749E /* iSignfor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F987A321C574F7E0010749E /* iSignfor */ = {
+			isa = PBXGroup;
+			children = (
+				8F987A361C574F7E0010749E /* AppDelegate.h */,
+				8F987A371C574F7E0010749E /* AppDelegate.m */,
+				8F987A391C574F7E0010749E /* ViewController.h */,
+				8F987A3A1C574F7E0010749E /* ViewController.m */,
+				8F987A3C1C574F7E0010749E /* Main.storyboard */,
+				8F987A421C574F7F0010749E /* Assets.xcassets */,
+				8F987A441C574F7F0010749E /* LaunchScreen.storyboard */,
+				8F987A471C574F7F0010749E /* Info.plist */,
+				8F987A3F1C574F7F0010749E /* iSignfor.xcdatamodeld */,
+				8F987A331C574F7E0010749E /* Supporting Files */,
+			);
+			path = iSignfor;
+			sourceTree = "<group>";
+		};
+		8F987A331C574F7E0010749E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F987A341C574F7E0010749E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F987A2F1C574F7E0010749E /* iSignfor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F987A4A1C574F800010749E /* Build configuration list for PBXNativeTarget "iSignfor" */;
+			buildPhases = (
+				8F987A2C1C574F7E0010749E /* Sources */,
+				8F987A2D1C574F7E0010749E /* Frameworks */,
+				8F987A2E1C574F7E0010749E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSignfor;
+			productName = iSignfor;
+			productReference = 8F987A301C574F7E0010749E /* iSignfor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F987A281C574F7D0010749E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = com.gzmpc;
+				TargetAttributes = {
+					8F987A2F1C574F7E0010749E = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = K3CSX4PDY8;
+					};
+				};
+			};
+			buildConfigurationList = 8F987A2B1C574F7E0010749E /* Build configuration list for PBXProject "iSignfor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F987A271C574F7D0010749E;
+			productRefGroup = 8F987A311C574F7E0010749E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F987A2F1C574F7E0010749E /* iSignfor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F987A2E1C574F7E0010749E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F987A461C574F7F0010749E /* LaunchScreen.storyboard in Resources */,
+				8F987A431C574F7F0010749E /* Assets.xcassets in Resources */,
+				8F987A3E1C574F7E0010749E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F987A2C1C574F7E0010749E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F987A3B1C574F7E0010749E /* ViewController.m in Sources */,
+				8F987A381C574F7E0010749E /* AppDelegate.m in Sources */,
+				8F987A411C574F7F0010749E /* iSignfor.xcdatamodeld in Sources */,
+				8F987A351C574F7E0010749E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F987A3C1C574F7E0010749E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F987A3D1C574F7E0010749E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F987A441C574F7F0010749E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F987A451C574F7F0010749E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F987A481C574F800010749E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F987A491C574F800010749E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F987A4B1C574F800010749E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iSignfor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gzmpc.iSignfor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F987A4C1C574F800010749E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iSignfor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gzmpc.iSignfor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F987A2B1C574F7E0010749E /* Build configuration list for PBXProject "iSignfor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F987A481C574F800010749E /* Debug */,
+				8F987A491C574F800010749E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F987A4A1C574F800010749E /* Build configuration list for PBXNativeTarget "iSignfor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F987A4B1C574F800010749E /* Debug */,
+				8F987A4C1C574F800010749E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8F987A3F1C574F7F0010749E /* iSignfor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8F987A401C574F7F0010749E /* iSignfor.xcdatamodel */,
+			);
+			currentVersion = 8F987A401C574F7F0010749E /* iSignfor.xcdatamodel */;
+			path = iSignfor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8F987A281C574F7D0010749E /* Project object */;
+}
