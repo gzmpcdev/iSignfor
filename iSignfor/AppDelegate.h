@@ -21,5 +21,17 @@
 - (NSURL *)applicationDocumentsDirectory;
 
 
+@property (strong, nonatomic) NSMutableData *webData3;
+@property (strong, nonatomic) NSMutableString *soapResults3;
+@property (strong, nonatomic) NSXMLParser *xmlParser3;
+@property (nonatomic) BOOL elementFound3;
+@property (strong, nonatomic) NSString *matchingElement3;
+@property (strong, nonatomic) NSURLConnection *conn3;
+
++(NSString *)sendneeds;
++(NSInteger)sendversion;
++(NSString *)sendmemo;
+
+
 @end
 
