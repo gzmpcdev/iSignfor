@@ -30,7 +30,7 @@ NSString *chuanuserid;
 UITextField *namee;
 UITextField *passwordd;
 
-int version=3;
+int version=5;
 
 @implementation ViewController
 

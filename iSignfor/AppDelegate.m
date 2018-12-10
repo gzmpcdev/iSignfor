@@ -120,7 +120,7 @@ NSString *memo;
         // 将这个XML字符串打印出来
         NSLog(@"%@", soapMsg);
         // 创建URL，内容是前面的请求报文报文中第二行主机地址加上第一行URL字段
-        NSURL *url = [NSURL URLWithString: @"http://125.88.8.30:8887/AndroidWebservice/CheckImgUploadPort"];
+        NSURL *url = [NSURL URLWithString: @"http://125.88.8.30:8888/AndroidWebservice/CheckImgUploadPort"];
         // 根据上面的URL创建一个请求
         NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:url];
         NSString *msgLength = [NSString stringWithFormat:@"%d", [soapMsg length]];
