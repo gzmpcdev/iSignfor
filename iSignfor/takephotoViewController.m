@@ -138,9 +138,10 @@ int goontakepic;
     UIImagePickerControllerSourceType sourceType = UIImagePickerControllerSourceTypeCamera;
     if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
         UIImagePickerController *picker = [[UIImagePickerController alloc]init];
-        picker.delegate = self;
+        
         picker.allowsEditing = NO;
         picker.sourceType = sourceType;
+        picker.delegate = self;
         //[self presentModalViewController:picker animated:YES];
         [self presentViewController:picker animated:YES completion:^{
             NSLog(@"OK");
